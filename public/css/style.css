@@ -112,10 +112,33 @@ body{
 
 .btns {
     display: flex;
+    /* padding: 20px; */
     /* margin-right: 3rem; */
 }
 
 .show-card{
     padding-left: 0;
     padding-right: 0;   
+}
+
+.btn {
+    display: flex;
+    /* padding: 20px; */
+    /* margin-right: 3rem; */
+    
+}
+
+.button-container {
+    display: flex;
+    /* Flexbox on karo */
+    gap: 10px;
+    /* Buttons ke beech thodi space */
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 10px 20px;
+    /* Buttons ka size set karo */
+    font-size: 16px;
+    /* Text ka size */
 }

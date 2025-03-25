@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/images", express.static(path.join(__dirname, "images"))); // Yeh line update ki
 
 main().then(() => {
     console.log("connected to DB");
